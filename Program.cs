@@ -1,6 +1,6 @@
 ﻿Console.WriteLine("Введите номер месяца");
 int a = Convert.ToInt32(Console.ReadLine());
-if (a >= 1 & a <=2 & a == 12) {
+if (a >= 1 & a <=2 | a == 12) {
     Console.WriteLine("зима");
 }
 else if (a >= 2 & a <= 5)
@@ -18,4 +18,5 @@ else if (a >= 8 & a <= 11)
 else
 {
     Console.WriteLine("введен некорректный месяц");
+
 }
